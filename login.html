@@ -1,0 +1,72 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>로그인</title>
+  <style>
+    body {
+      background-color: #e6ecf5; /*색상*/
+    }
+
+    .login-container {
+      background-color: white;
+      width: 400px;
+      margin: 100px auto;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      margin-bottom: 30px;
+    }
+
+    input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #2b7bbb;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover { /*마우스 호버 효과*/
+      background-color: #1f5d90;
+    }
+
+    .login-links {
+      margin-top: 15px; /*버튼과 간격 띄움*/
+      font-size: 14px;  
+    }
+
+    .login-links a {
+      color: #2b7bbb;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="login-container">
+    <h2>로그인</h2>
+
+    <form action="login-succes.html" method="get">
+        <input type="email" placeholder="이메일 주소" required>
+        <input type="password" placeholder="비밀번호" required>
+        <button>로그인</button>
+    </form>
+    <div class="login-links">
+      <a href="#">회원가입 하러가기</a>
+    </div>
+  </div>
+</body>
+</html>
