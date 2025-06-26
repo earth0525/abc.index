@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>잊혀진 책방</title>
+  
+  <style>
+    h1,p {
+        text-align : center; /*글씨중앙*/
+    }
+    
+    .menu {
+        list-style: none; /*점 제거*/
+        padding: 0;
+        display: flex; /*가로정렬*/
+        justify-content: center; /*가운데 정렬*/
+        gap: 30px; /*항목 사이 간격*/
+        margin: 0;
+    }
+
+    .menu li a {
+        color: white; /* 글씨 색 */
+}
+
+
+    section {
+    margin-top: 100px; /* 위쪽 간격 띄우기 */
+    }
+
+    .box {
+        background-color: white;
+        padding: 30px;
+        width: 80%;
+        margin: 0 auto 30px; /* 가운데 정렬 + 아래 여백 추가 */
+    }
+
+    .box h2 {
+        margin-top: 0;
+    }
+
+
+    /*전체 배경*/
+    body {
+        margin: 0;
+        background-color: #e6ecf5; /* 연한 회청색 배경 */
+    }
+
+    /*헤더*/
+    header {
+        background-color: #2b3c4e;
+        color: white;
+        text-align: center;
+        padding: 30px 0 10px;
+    }
+    
+    /*서브타이틀*/
+    header p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #cbd5e0;
+    }
+
+    /*내비게이션 메뉴*/
+    nav {
+        background-color: #1f2d3a; /* 더 진한 남색 */
+        padding: 10px 0;
+    }
+
+
+  </style>
+</head>
+
+
+<body>
+  <!-- 사이트 이름 및 설명 -->
+  <header>
+    <h1>잊혀진 책방</h1>
+    <p>절판 도서 아카이브 & 독자 커뮤니티</p>
+  </header>
+
+  <!-- 상단 메뉴 -->
+  <nav>
+    <ul class="menu"> 
+      <li><a href="signup.html">회원가입</a></li>
+      <li><a href="login.html">로그인</a></li>
+      <li><a href="archive.html">절판 도서 아카이브</a></li>
+    </ul>
+  </nav>
+
+  <!--절판 도서와 회원기능 안내 -->
+  <main>
+    <section>
+      <div class="box">
+        <h2>📚 절판 도서 소개</h2>
+        <p>더 이상 출판되지 않는 절판 도서들을 기록하고 소개하는 공간입니다. 독자들이 책에 얽힌 이야기와 정보를 나눌 수 있습니다.</p>
+      </div>
+
+      <div class="box">
+        <h2>👤 회원 기능 안내</h2>
+        <ul>
+          <li><strong>회원가입</strong> - 이메일로 새로운 계정 생성</li>
+          <li>✏️ <strong>로그인</strong> - 기존 회원 정보로 접근</li>
+          <li>📖 <strong>마이페이지</strong> - 회원정보, 내 댓글 확인</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
