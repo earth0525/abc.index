@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>절판 도서 아카이브 메인</title>
+  <style>
+    body {
+      background-color: #e6ecf5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2b3c4e;
+      color: white;
+      padding: 30px 0 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: #cbd5e0;
+    }
+
+
+    .book-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 30px auto;
+      max-width: 1000px;
+    }
+
+    .book-card {
+      background-color: white;
+      padding: 20px;
+      width: 280px;
+    }
+
+    .book-card h3 {
+      margin-top: 0;
+    }
+
+    .book-card p {
+      font-size: 14px;
+      margin: 6px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+
+
+    .tag-orange {
+      background-color: #dd6b20;
+      color: white;
+    }
+
+    .tag-green {
+      background-color: #1ece0b;
+      color: white;
+    }
+
+    .buttons {
+      text-align: center;
+      margin: 30px 0 60px;
+    }
+
+    .button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #2b7bbb;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #1f5d90;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📚 절판 도서 아카이브</h1>
+    <p>잊혀진 명작과 희귀한 책들을 기록하는 공간입니다</p>
+  </header>
+
+  <div class="book-list">
+
+    <div class="book-card">
+      <h3>죄와 벌</h3>
+      <p><strong>저자:</strong> 표도르 도스토옙스키</p>
+      <p><strong>출판사:</strong> 을유문화사, 범우사 등 다수<br>(일부 판본 절판)</p>
+      <p><strong>발행년도:</strong> 국내 초역 1950~60년대</p>
+      <p>가난한 대학생 라스콜리니코프가<br>노파를 살해한 뒤 겪는 심리적<br>고통과 죄의식, 
+        그리고 구원을 향한 내면의 여정을 그린 도덕·철학적 범죄소설.</p>
+      <span class="tag tag-orange">📘 구판 절판</span>
+    </div>
+
+    <div class="book-card">
+      <h3>인간실격</h3>
+      <p><strong>저자:</strong> 다자이 오사무</p>
+      <p><strong>출판사:</strong> 민음사, 을유문화사, 창비 등</p>
+      <p><strong>발행년도:</strong> 일본 초판: 1984년 / 한국 초판: 1970년대 이후 다양한 판본 출간</p>
+      <p>삶에 대한 깊은 허무와 자아 상실을 겪는<br>주인공 오바 요조가 점점 사회로부터<br>소외되고 파멸해 가는 과정을 통해, 
+        <br>인간 존재의 본질과 부조리를 탐구한<br>자전적 색채가 짙은 심리·철학 소설.</p>
+      <span class="tag tag-green">📙 초판 절판</span>
+    </div>
+
+  </div>
+
+ <div class="buttons">
+    <a href="booktype.html" class="button">이전으로</a>
+    <a href="main.html" class="button">메인으로</a>
+</div>
+
+</body>
+</html>
