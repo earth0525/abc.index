@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+  <style>
+    body {
+      background-color: #e6ecf5;
+    }
+
+    /*회원가입 박스*/
+    .signup-container {
+      background-color: white;
+      width: 400px;
+      margin: 100px auto;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      color: #2b3c4e;
+    }
+
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
+    .signup-button {
+      width: 100%;
+      padding: 12px;
+      background-color: #38a169; /* 초록색 */
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .signup-button:hover {
+      background-color: #2f855a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signup-container">
+    <h2>회원가입</h2>
+    <form action="signup-succes.html" method="get">
+      <input type="text" name="username" placeholder="사용자 이름" required>
+      <input type="email" name="email" placeholder="이메일 주소" required>
+      <input type="tel" name="phone" placeholder="전화번호" required>
+      <input type="password" name="password" placeholder="비밀번호" required>
+      <input type="password" name="confirm_password" placeholder="비밀번호 확인" required>
+      <button type="submit" class="signup-button">회원가입</button>
+    </form>
+  </div>
+
+</body>
+</html>
