@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>절판 도서 아카이브 메인</title>
+  <style>
+    body {
+      background-color: #e6ecf5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2b3c4e;
+      color: white;
+      padding: 30px 0 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: #cbd5e0;
+    }
+
+    .book-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 30px auto;
+      max-width: 1000px;
+    }
+
+    .book-card {
+      background-color: white;
+      padding: 20px;
+      width: 280px;
+    }
+
+    .book-card h3 {
+      margin-top: 0;
+    }
+
+    .book-card p {
+      font-size: 14px;
+      margin: 6px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .tag-red {
+      background-color: #e53e3e;
+      color: white;
+    }
+
+    .tag-green {
+      background-color: #1ece0b;
+      color: white;
+    }
+
+    .buttons {
+      text-align: center;
+      margin: 30px 0 60px;
+    }
+
+    .button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #2b7bbb;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #1f5d90;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📚 절판 도서 아카이브</h1>
+    <p>잊혀진 명작과 희귀한 책들을 기록하는 공간입니다</p>
+  </header>
+
+
+  <div class="book-list">
+    <div class="book-card">
+      <h3>동물의 왕국</h3>
+      <p><strong>저자:</strong> 김소진</p>
+      <p><strong>출판사:</strong> 문학과지성사</p>
+      <p><strong>발행년도:</strong> 1995</p>
+      <p>90년대 서울 하층민의 삶을 그린<br>현실적이고도 강렬한 중단편집.</p>
+      <span class="tag tag-red">✅ 전체 절판</span>
+    </div>
+    
+    <div class="book-card">
+      <h3>삼미슈퍼스타즈의 마지막 팬클럽</h3>
+      <p><strong>저자:</strong> 박민규</p>
+      <p><strong>출판사:</strong> 한겨레출판 (초판 절판)</p>
+      <p><strong>발행년도:</strong> 2003</p>
+      <p>야구팀 삼미 슈퍼스타즈를 중심으로<br>한 청춘과 실패의 이야기.</p>
+      <span class="tag tag-green">📙 초판 절판</span>
+    </div>
+
+  </div>
+
+ <div class="buttons">
+  <a href="booktype.html" class="button">이전으로</a>
+  <a href="main.html" class="button">메인으로</a>
+
+</div>
+
+</body>
+</html>
