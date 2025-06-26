@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>마이페이지 - 절판 도서 아카이브</title>
+  <style>
+    body {
+      background-color: #e6ecf5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2b3c4e;
+      color: white;
+      padding: 30px 0 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: #cbd5e0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc; /*선 추가*/
+      padding-bottom: 5px;
+    }
+
+    .user-info p {
+      font-size: 14px;
+      margin: 8px 0;
+    }
+
+    .post-list {
+      margin-top: 20px;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px 20px;
+      background-color: #2b7bbb;
+      color: white;
+      font-size: 14px;
+      text-decoration: none; /*밑줄제거*/
+    }
+
+    .button:hover {
+      background-color: #1f5d90;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📘 마이페이지</h1>
+    <p>나의 정보와 작성한 글들을 확인할 수 있어요</p>
+  </header>
+
+  <div class="container">
+    <div class="user-info">
+      <h2 class="section-title">회원 정보</h2>
+      <p><strong>아이디:</strong> asdf1234</p>
+      <p><strong>이메일:</strong> asdf@gmail.com</p>
+    </div>
+
+    <div class="post-list">
+      <h2 class="section-title">내가 작성한 글</h2>
+      <p>📚 아직 아무것도 작성하지 않았습니다.</p>
+    </div>
+
+    <div class="buttons">
+      <a href="main.html" class="button">이전으로</a>
+      <a href="logout.html" class="button">로그아웃</a>
+    </div>
+  </div>
+
+</body>
+</html>
